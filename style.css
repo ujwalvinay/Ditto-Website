@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body
+{
+    overflow-x: hidden;
+}
+#logo
+{
+    width: 70px;
+}
+.navbar
+{
+    margin: 1rem 12rem;
+}
+.navbar-nav
+{
+    gap: 1rem;
+}
+.hiring-btn
+{
+    background-color: rgb(195, 221, 250);
+    font-weight: 600;
+    
+}
+.buy-btn
+{
+    background-color: #22a2f8;
+    font-weight: 600;
+    color: white;
+}
+.btn
+{
+    padding: .2rem 1rem;
+}
+.buy-btn:hover
+{
+    background-color: #243c62;
+    color: white;
+}
+.ditto-btn
+{
+    background-color: #f1f4f5;
+    padding: .3rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.nav-link
+{
+    font-weight: 500;
+    font-size: 16px;
+}
+.dropdown-toggle:focus
+{
+    background-color: #f1f4f5;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+
+
+.banner
+{
+    padding: 3rem 0;
+    margin-left: 12rem;
+}
+.text-div
+{
+    margin: 1rem 0;
+    
+}
+.finshot-btn
+{
+    padding: .5rem 1rem;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+#finshots-logo
+{
+    width: 20px;
+}
+#finshot
+{
+    font-weight: 600;
+}
+h1
+{
+    font-weight: 800;
+    font-size: 38px;
+    color: #191f23;
+}
+p
+{
+    width: 90%;
+    font-size: 20px;
+    line-height: 32px;
+
+    padding: 1rem 0;
+}
+.book-btn
+{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    
+    padding: .75rem 2rem;
+    border:none;
+    border-radius: 5px;
+    background-color:#22a2f8;
+
+    display: flex;
+    gap: 10px;
+}
+.video-banner
+{
+    width: 90%;
+}
