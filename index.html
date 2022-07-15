@@ -33,7 +33,44 @@
                   Health Insurance
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <p>Coming Soon</p>
+
+                  <!-- Life Insurance Dropdown Section -->
+                  <div class=" hi-row">
+                    <div class="section-1">
+                      <h6>Guides</h6>
+                      <a class="dropdown-a" href="https://joinditto.in/health-insurance/articles/health-insurance-101/">
+                        <div class="heath-insurance">
+                          <img src="assets/hi_guide.webp" alt="hi_guide" class="drop-down-icon">
+                          <div class="text-area">
+                            <h6>Health Insurance 101</h6>
+                            <p class="dropdown-p">Learn everything there is to know about reading a policy document</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class = "vertical"></div>
+                    <div class="section-2">
+                      <h6>Tools</h6>
+                      <a class="dropdown-a" href="https://joinditto.in/health-insurance/">
+                        <div class="heath-insurance">
+                          <img src="assets/know_insurance.webp" alt="hi_guide" class="drop-down-icon">
+                          <div class="text-area">
+                            <h6>Understand your policy</h6>
+                            <p class="dropdown-p">Your health insurance policy explained in spanish</p>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="dropdown-a" href="https://joinditto.in/health-insurance/checklist/">
+                        <div class="heath-insurance">
+                          <img src="assets/know_insurance.webp" alt="hi_guide" class="drop-down-icon">
+                          <div class="text-area">
+                            <h6>Health Insurance Checklist</h6>
+                            <p class="dropdown-p">A handy Checklist to make sure you know exactly what to look for in good policy.</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -41,7 +78,42 @@
                   Life Insurance
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <p>Coming Soon</p>
+                  <div class=" li-row">
+                    <div class="section-3">
+                      <h6>Guides</h6>
+                      <a class="dropdown-a" href="https://joinditto.in/life-insurance/articles/term-insurance-101/">
+                        <div class="heath-insurance">
+                          <img src="assets/li_guide.webp" alt="hi_guide" class="drop-down-icon">
+                          <div class="text-area">
+                            <h6>Term Insurance 101</h6>
+                            <p class="dropdown-p">Learn everything there is to know about reading a policy document</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class = "vertical"></div>
+                    <div class="section-4">
+                      <h6>Tools</h6>
+                      <a class="dropdown-a" href="https://joinditto.in/health-insurance/articles/health-insurance-101/">
+                        <div class="heath-insurance">
+                          <img src="assets/know_insurance.webp" alt="hi_guide" class="drop-down-icon">
+                          <div class="text-area">
+                            <h6>ULIP analysis</h6>
+                            <p class="dropdown-p bug-p">Coming soon...</p>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="dropdown-a" href="https://joinditto.in/health-insurance/articles/health-insurance-101/">
+                        <div class="heath-insurance">
+                          <img src="assets/know_insurance.webp" alt="hi_guide" class="drop-down-icon">
+                          <div class="text-area">
+                            <h6>Term Insurance Calculator</h6>
+                            <p class="dropdown-p">Coming soon...</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </li>
               <li class="nav-item">
@@ -62,11 +134,67 @@
             <button class="finshot-btn" type="button"><img src="assets/finshots_logo.webp" alt="finshot-logo" id="finshots-logo">  A product by <span id="finshot">Finshots</span></button>
             <h1>Insurance made easy</h1>
             <p>With Ditto, you get the best advice on insurance. Understand your policy, get answers to your burning questions, and buy insurance, all at the same place.</p>
-            <button class="book-btn my-auto" type="button"><i class="fa-solid fa-calendar"></i> Book a free call</button>
-        </div>
+            <button class="book-btn my-auto" type="button" data-bs-toggle="modal" data-bs-target="#bookModal"><i class="fa-solid fa-calendar"></i> Book a free call</button>
+            
+            <!-- Modal for the booking session -->
+            <div class="modal modal-lg fade " id="bookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    
+                    <div class="components row">
+                      <div class="col-md-6 div-1">
+                        <button id="ditto-btn">Ditto Insurance</button>
+                        <h3>Ditto Insurance Hotline</h3>
+                        <h6><i class="fa-solid fa-clock"></i> 30 mins</h6>
+                        <p id="book-p">With Ditto Hotline, you get access to the best insurance advisors in town. Currently we are experiencing unprecedented traffic on the Ditto Hotline. So if you don’t want to wait, you can WhatsApp us and we will try to address your queries.</p>
+                      </div>
+                      <div class = "vertical"></div>
+                      <div class="col-md-5 div-2">
+                        <p class="book-p-2">Please let us know if your query is regarding health insurance, life insurance or both? *</p>
+
+                        <!-- check buttns -->
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Health Insurance
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Term Insurance
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Both
+                          </label>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label input-label">Please let us know your query *</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                        <button class="btn btn-primary next-btn">
+                            Next
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+          </div>
         <div class="col-md-7">
             <video class="video-banner" autoplay="" loop="" muted=""><source src="assets/ditto_intro-01f5b5534d9b2f57779601c340a65e75.mp4" type="video/mp4"></video>
         </div>
-      </div>
+      </div>      
 </body>
 </html>
+
+
