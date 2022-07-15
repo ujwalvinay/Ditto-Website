@@ -125,3 +125,160 @@ p
 {
     width: 90%;
 }
+
+
+/* Booking Modal Section */
+.modal
+{
+    pointer-events: auto;
+}
+.components
+{
+    display: flex;
+    pointer-events: auto;
+}
+.div-1
+{
+    margin-left: 1rem;
+}
+#ditto-btn
+{
+    padding: .2rem 1rem;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+h3
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+h6
+{
+    opacity: .7;
+    margin: 1rem 0;
+}
+#book-p
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 10rem;
+    width: 90%;
+}
+
+/* Vertical Line */
+.vertical {
+    border-left: 1px solid rgba(119, 119, 119,.2);
+    height: 95%;
+    position:absolute;
+    left: 50%;
+}
+
+.div-2
+{
+    margin-left: 1rem;
+}
+.book-p-2
+{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.form-check
+{
+    font-size: 16px;
+    padding: 12px;
+    font-weight: 500;
+    margin-left: 1rem;
+
+    gap: 10px;
+}
+.mb-3
+{
+    padding: 1rem 0;
+}
+.input-label
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+.next-btn
+{
+    font-size: 16px;
+    font-weight: 600;
+    padding: .5rem 3rem;
+    margin-left: 65%;
+}
+
+
+/* Drop Down Section */
+.hi-row
+{
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.heath-insurance
+{
+    display: flex;
+    gap: 1rem;
+    color: #191f23;
+    
+}
+.section-1
+{
+    padding-left: 2rem;
+}
+.drop-down-icon
+{
+    width: 40px;
+    height: min-content;
+}
+.dropdown-a
+{
+    text-decoration: none;
+}
+h6
+{
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+    font-size: 1;
+}
+.dropdown-p
+{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    list-style: none;
+    padding: 0;
+    width: 95%;
+}
+.section-2
+{
+    margin-left: 2rem;
+}
+
+
+/* Life Insurance Dropdown */
+.section-3
+{
+    width: 300px;
+    margin-left: 1rem;
+}
+.li-row
+{
+    display: flex;
+    gap: 22px;
+    width: 630px;
+}
+.bug-p
+{
+    width: 100%;
+}
